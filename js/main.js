@@ -175,7 +175,7 @@
      Replace KAKAO_CHANNEL_URL with the real KakaoTalk channel URL
      (e.g. "http://pf.kakao.com/_xxxxx"). Until then, buttons fall back
      to the contact section / email.                                   */
-  var KAKAO_CHANNEL_URL = ''; // <-- 카카오톡 채널 주소를 여기에 입력하세요
+  var KAKAO_CHANNEL_URL = 'https://pf.kakao.com/_ysqxjX'; // 카카오톡 채널
   document.querySelectorAll('[data-kakao]').forEach(function (btn) {
     btn.addEventListener('click', function (e) {
       if (KAKAO_CHANNEL_URL) {
