@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COS SEAL · (주)씨오에스씰 | 통합 씰링 파트너</title>
+    <meta
+      name="description"
+      content="(주)씨오에스씰(COS SEAL) — 20년 경험의 통합 씰링 파트너. 중장비·산업기계용 오일씰, 패킹, 오링의 설계·개발부터 양산까지. NAK, NOK, SKF, FREUDENBERG 외 국산·수입 씰 공급."
+    />
+    <meta name="theme-color" content="#0a0f1f" />
+
+    <!-- Open Graph — 배포 시 SITE_URL 을 실제 도메인으로 교체하세요 (og:url / og:image 는 절대경로여야 카카오·SNS 공유 미리보기가 동작합니다) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="COS SEAL" />
+    <meta property="og:title" content="COS SEAL · (주)씨오에스씰" />
+    <meta
+      property="og:description"
+      content="단순 납품을 넘어, 씰링 솔루션으로. 20년 경험의 통합 씰링 파트너."
+    />
+    <meta property="og:url" content="https://www.cos-seal.co.kr/" />
+    <meta
+      property="og:image"
+      content="https://www.cos-seal.co.kr/assets/logo/cos-seal-logo.png"
+    />
+
+    <!-- Pretendard (Korean web font) — preload the stylesheet so Korean text paints with the brand font -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/logo/cos-seal-logo-trans.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- scroll progress -->
+    <div class="scroll-progress" aria-hidden="true">
+      <span id="scroll-progress-bar"></span>
+    </div>
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site-header" id="site-header">
+      <div class="container nav-inner">
+        <a class="brand" href="#home" aria-label="COS SEAL 홈">
+          <img
+            src="assets/logo/cos-seal-logo-white.png"
+            alt="COS SEAL 로고"
+            class="brand-logo brand-logo--white"
+          />
+          <img
+            src="assets/logo/cos-seal-logo-trans.png"
+            alt=""
+            aria-hidden="true"
+            class="brand-logo brand-logo--color"
+          />
+        </a>
+
+        <nav class="nav-links" aria-label="주 메뉴">
+          <a href="#about">회사소개</a>
+          <a href="#products">제품</a>
+          <a href="#partners">파트너</a>
+          <a href="#contact">오시는길</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-kakao nav-cta" data-kakao>
+          <span class="kakao-dot" aria-hidden="true"></span> 카카오 상담
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="메뉴 열기"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="#about">회사소개</a>
+        <a href="#products">제품</a>
+        <a href="#partners">파트너 &amp; 고객사</a>
+        <a href="#contact">오시는길</a>
+        <a href="#contact" class="btn btn-kakao" data-kakao>카카오 상담</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="home">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="hero-grid"></span>
+          <span class="hero-glow hero-glow--red"></span>
+          <span class="hero-glow hero-glow--blue"></span>
+        </div>
+
+        <div class="container hero-inner">
+          <p class="eyebrow reveal">INDUSTRIAL SEALING PARTNER · 20 YEARS</p>
+          <h1 class="hero-title reveal">
+            단순 납품을 넘어,<br />
+            <span class="accent-red">씰링</span>
+            <span class="accent-blue">솔루션</span>으로.
+          </h1>
+          <p class="hero-sub reveal">
+            중장비와 산업기계를 위한 오일씰 · 패킹 · 오링.<br
+              class="br-desktop"
+            />
+            연구·개발부터 양산까지, 검증된 품질과 납기로 함께하는 통합 씰링
+            파트너 <strong>COS&nbsp;SEAL</strong>.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#products" class="btn btn-primary">제품 살펴보기</a>
+            <a href="#contact" class="btn btn-ghost" data-kakao
+              >카카오로 상담하기</a
+            >
+          </div>
+
+          <dl class="hero-stats reveal">
+            <div>
+              <dt>
+                <span class="count" data-count="20">0</span><span>년</span>
+              </dt>
+              <dd>씰링 전문 경험</dd>
+            </div>
+            <div>
+              <dt><span class="count" data-count="7">0</span><span>+</span></dt>
+              <dd>국내외 씰 브랜드</dd>
+            </div>
+            <div>
+              <dt>ALL<span>·IN·1</span></dt>
+              <dd>설계 · 개발 · 양산</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section about" id="about">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="section-tag">About Us</span>
+            <h2 class="section-title">
+              통합 씰링 파트너, <span class="accent-red">COS SEAL</span>
+            </h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-lead reveal">
+              <p>
+                저희 <strong>COS&nbsp;SEAL</strong>은 지난
+                <strong>20년간</strong> 중장비와 산업기계에 사용되는 각종
+                SEALING 제품을 설계·제작 및 취급하는
+                <strong>통합 씰링 파트너</strong> 회사입니다. 수입품을 비롯하여
+                국산제품에 이르기까지, 고객이 만족할 수 있는 품질과 납기를 위해
+                항상 노력합니다.
+              </p>
+              <p>
+                견적부터 발주 완료까지 고객과의 소통을 통해 납기·금액·문의사항
+                등 요청을 적극 반영하여, 최적의 맞춤 솔루션을 제공하는
+                <strong>신뢰할 수 있는 파트너</strong>가 되겠습니다.
+              </p>
+              <ul class="about-tasks">
+                <li>각종 오일씰 · 유공압 패킹의 설계·개발 및 수입공급</li>
+                <li>
+                  적용 환경에 따른 씰링 제품 솔루션 · 기술자료 · 정보 제공
+                </li>
+              </ul>
+            </div>
+
+            <div class="strengths">
+              <article class="strength-card reveal">
+                <span class="strength-no">01</span>
+                <h3>가성비 — 비용절감 대비 높은 품질</h3>
+                <p>
+                  수입 브랜드 <strong>NAK</strong>는 글로벌 유명 기업과 견주어도
+                  뒤처지지 않는 품질을 갖추면서도, 가격을 낮춘
+                  <strong>가성비</strong>를 겸비한 브랜드입니다.
+                </p>
+              </article>
+              <article class="strength-card reveal">
+                <span class="strength-no">02</span>
+                <h3>씰링 솔루션 — 단순 납품을 넘어선 R&amp;D</h3>
+                <p>
+                  축적된 기술력과 정보력으로 씰링 솔루션을 제공하고, 고객사의
+                  신규 연구·개발 제품에 맞춘 제작 씰을 양산합니다. 씰 관련
+                  제품의 <strong>올인원 파트너</strong>로 협력합니다.
+                </p>
+              </article>
+              <article class="strength-card reveal">
+                <span class="strength-no">03</span>
+                <h3>금형비 절감 — NAK 금형개발비 절감</h3>
+                <p>
+                  NAK는 국내외 브랜드 대비 뛰어난 가격절감 효과로 신규 씰 금형
+                  제작비용을 절감합니다. 검사성적서·품질보증서 등 서류 제공도
+                  <strong>빠르고 정확</strong>합니다.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRODUCTS ============ -->
+      <section class="section products" id="products">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="section-tag">Products</span>
+            <h2 class="section-title">취급 제품</h2>
+            <p class="section-desc">
+              표준 규격부터 특수 사양까지 — 다양한 산업 환경에 맞는 씰링 제품을
+              설계·공급합니다.
+            </p>
+          </header>
+
+          <div class="product-grid">
+            <article class="product-card reveal">
+              <div class="product-card__top">
+                <span class="product-index">01</span>
+                <svg
+                  class="product-icon"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line
+                    x1="6"
+                    y1="40"
+                    x2="42"
+                    y2="40"
+                    stroke-dasharray="1.5 3.5"
+                    opacity=".5"
+                  />
+                  <path d="M15 11 H35 V37 H24 L15 29 Z" />
+                  <path d="M24 37 L18 31" />
+                  <circle cx="24" cy="22" r="3" />
+                </svg>
+              </div>
+              <h3>Oil Seal <span>오일씰</span></h3>
+              <p>회전축의 윤활유 누유와 외부 이물질 침입을 막는 핵심 씰.</p>
+              <ul class="product-tags">
+                <li>건설기계용</li>
+                <li>농기계용 (미션 · 유압장치)</li>
+                <li>산업용 (감속기 · 펌프 · 모터)</li>
+              </ul>
+            </article>
+
+            <article class="product-card reveal">
+              <div class="product-card__top">
+                <span class="product-index">02</span>
+                <svg
+                  class="product-icon"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M11 11 L24 22 L37 11" opacity=".5" />
+                  <path d="M11 18 L24 29 L37 18" />
+                  <path d="M11 25 L24 36 L37 25" />
+                </svg>
+              </div>
+              <h3>Packing <span>패킹</span></h3>
+              <p>유압·공압 실린더의 왕복 운동부를 밀봉하는 정밀 패킹.</p>
+              <ul class="product-tags">
+                <li>유공압용</li>
+                <li>U Packing</li>
+                <li>V Packing 등</li>
+              </ul>
+            </article>
+
+            <article class="product-card reveal">
+              <div class="product-card__top">
+                <span class="product-index">03</span>
+                <svg
+                  class="product-icon"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                >
+                  <circle cx="24" cy="24" r="15" />
+                  <circle cx="24" cy="24" r="9" />
+                  <circle
+                    cx="24"
+                    cy="12"
+                    r="2.3"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+              <h3>O-Ring <span>오링</span></h3>
+              <p>정적·동적 씰링 전반에 쓰이는 가장 범용적인 밀봉 부품.</p>
+              <ul class="product-tags">
+                <li>O-Ring</li>
+                <li>X-Ring</li>
+                <li>V-Ring 등</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PARTNERS & CLIENTS ============ -->
+      <section class="section partners" id="partners">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="section-tag">Partners &amp; Clients</span>
+            <h2 class="section-title">함께하는 브랜드</h2>
+            <p class="section-desc">
+              검증된 국내외 씰 메이커의 정품을 공급하며, 신뢰받는 고객사와
+              협력하고 있습니다.
+            </p>
+          </header>
+
+          <h3 class="subhead reveal">Partner Brands</h3>
+          <ul class="logo-wall reveal">
+            <li class="is-main">
+              <span class="brand-badge">대표 수입 브랜드</span
+              ><img src="assets/brands/nak.png" alt="NAK" loading="lazy" />
+            </li>
+            <li>
+              <img src="assets/brands/nok.png" alt="NOK" loading="lazy" />
+            </li>
+            <li>
+              <img src="assets/brands/meiwa.jpeg" alt="MEIWA" loading="lazy" />
+            </li>
+            <li>
+              <img
+                src="assets/brands/morisei.jpeg"
+                alt="MORISEI"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/brands/sakagami.jpeg"
+                alt="SAKAGAMI"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/brands/freudenberg.png"
+                alt="FREUDENBERG"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img src="assets/brands/skf.png" alt="SKF" loading="lazy" />
+            </li>
+          </ul>
+          <p class="logo-note reveal">외 각종 국산 · 수입 씰 공급</p>
+
+          <div class="clients reveal">
+            <h3 class="subhead">Clients</h3>
+            <ul class="client-list">
+              <li>SPG</li>
+              <li>IGB</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="section-tag">Contact Us</span>
+            <h2 class="section-title">오시는길</h2>
+            <p class="section-desc">
+              문의사항은 전화·이메일 또는 카카오 상담으로 편하게 연락 주세요.
+            </p>
+          </header>
+
+          <p class="contact-lead reveal">
+            견적부터 발주 완료까지,
+            <span class="accent-blue">신뢰할 수 있는 파트너</span>가 되겠습니다.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-info reveal">
+              <dl class="info-list">
+                <div class="info-row">
+                  <dt class="info-label">대표</dt>
+                  <dd class="info-value">강남욱</dd>
+                </div>
+                <div class="info-row">
+                  <dt class="info-label">주소</dt>
+                  <dd class="info-value">
+                    경기도 안양시 동안구 흥안대로427번길 47, 706호<br />(관양동,
+                    인덕원 LDC비즈타워)
+                  </dd>
+                </div>
+                <div class="info-row">
+                  <dt class="info-label">이메일</dt>
+                  <dd class="info-value">
+                    <a href="mailto:nukang72@hotmail.com"
+                      >nukang72@hotmail.com</a
+                    >
+                  </dd>
+                </div>
+                <div class="info-row">
+                  <dt class="info-label">전화</dt>
+                  <dd class="info-value">
+                    <a href="tel:0314241627">031 424 1627</a>
+                  </dd>
+                </div>
+                <div class="info-row">
+                  <dt class="info-label">팩스</dt>
+                  <dd class="info-value">031 424 1628</dd>
+                </div>
+              </dl>
+
+              <a href="#contact" class="btn btn-kakao btn-lg" data-kakao>
+                <span class="kakao-dot" aria-hidden="true"></span> 카카오톡으로
+                상담하기
+              </a>
+              <p class="kakao-hint">
+                * 버튼에 카카오톡 채널 주소를 연결해 주세요.
+              </p>
+            </div>
+
+            <div class="contact-map reveal">
+              <iframe
+                title="COS SEAL 오시는길 지도"
+                src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%8F%99%EC%95%88%EA%B5%AC%20%ED%9D%A5%EC%95%88%EB%8C%80%EB%A1%9C427%EB%B2%88%EA%B8%B8%2047&z=16&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img
+            src="assets/logo/cos-seal-logo-white.png"
+            alt="COS SEAL"
+            class="footer-logo"
+          />
+          <p class="footer-tagline">
+            통합 씰링 파트너 · Industrial Sealing Partner
+          </p>
+        </div>
+
+        <div class="footer-meta">
+          <p>
+            <span>대표</span> 강남욱<span class="sep">|</span
+            ><span>사업자등록번호</span> 240-81-03389
+          </p>
+          <p>
+            <span>주소</span> 경기도 안양시 동안구 흥안대로427번길 47, 706호
+            (관양동, 인덕원 LDC비즈타워)
+          </p>
+          <p>
+            <span>E-mail</span>
+            <a href="mailto:nukang72@hotmail.com">nukang72@hotmail.com</a>
+            <span class="sep">|</span><span>Tel</span> 031 424 1627<span
+              class="sep"
+              >|</span
+            ><span>Fax</span> 031 424 1628
+          </p>
+          <p class="copyright">
+            Copyright © 2026 (주)씨오에스씰 (COS SEAL). All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="to-top" id="to-top" aria-label="맨 위로">↑</a>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
