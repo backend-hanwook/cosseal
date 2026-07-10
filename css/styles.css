@@ -156,8 +156,8 @@ a:focus-visible, .btn:focus-visible, .nav-toggle:focus-visible, .to-top:focus-vi
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 
-.brand { position: relative; display: inline-flex; align-items: center; height: 24px; }
-.brand-logo { height: 20px; width: auto; transition: opacity .3s var(--ease); }
+.brand { position: relative; display: inline-flex; align-items: center; height: 32px; }
+.brand-logo { height: 28px; width: auto; transition: opacity .3s var(--ease); }
 .brand-logo--color { position: absolute; left: 0; top: 50%; transform: translateY(-50%); opacity: 0; }
 .site-header.scrolled .brand-logo--white { opacity: 0; }
 .site-header.scrolled .brand-logo--color { opacity: 1; }
