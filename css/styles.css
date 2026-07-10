@@ -476,8 +476,8 @@ a:focus-visible, .btn:focus-visible, .nav-toggle:focus-visible, .to-top:focus-vi
 .contact-map {
   border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line);
   box-shadow: var(--shadow-sm); min-height: 380px;
+  display: flex; justify-content: center; align-items: center;
 }
-.contact-map iframe { width: 100%; height: 100%; min-height: 380px; border: 0; display: block; }
 
 /* ============================================================
    FOOTER
